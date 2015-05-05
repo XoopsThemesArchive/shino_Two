@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_themecss}>" />
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+<body>
+<table align="center" cellspacing="1" cellpadding="0" style="width:800px;">
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td class="logo">&nbsp;</td>
+</tr>
+<tr>
+<td nowrap><a href="http://81.91.66.251/~e-djeunz.com/modules/e-djeunz/"><img src="<{$xoops_imageurl}>imagens/collegev2.jpg" /><a href="http://81.91.66.251/~e-djeunz.com/modules/wfdownloads/"><img src="<{$xoops_imageurl}>imagens/rougev2.jpg" /><a href="http://81.91.66.251/~e-djeunz.com/modules/insertpage/index.php?op=lecture&page=Tchat.htm&idpg=1&rubric=Tchat"><img src="<{$xoops_imageurl}>imagens/vertv2.jpg" /><a href="http://81.91.66.251/~e-djeunz.com/modules/myalbum/"><img src="<{$xoops_imageurl}>imagens/bleuv2.jpg" /><a href="http://81.91.66.251/~e-djeunz.com/modules/mylinks/"><img src="<{$xoops_imageurl}>imagens/lyceev2.jpg" /><a href="http://81.91.66.251/~e-djeunz.com/modules/newbb/"><img src="<{$xoops_imageurl}>imagens/jaunev2.jpg" /><br /><br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td width="170" bgcolor="transparent" style="padding:4px;"><br />
+<!-- Start left blocks loop -->
+<{foreach item=block from=$xoops_lblocks}>
+<table cellspacing="0" cellpadding="0">
+<tr><td><img src="<{$xoops_imageurl}>imagens/tl.gif" /></td>
+<td class="blockTitle">&nbsp;<{$block.title}></td>
+<td><img src="<{$xoops_imageurl}>imagens/tr.gif" /></td>
+</tr>
+<tr>
+<td class="blockContent" colspan="3"><{$block.content}></td>
+</tr>
+<tr><td><img src="<{$xoops_imageurl}>imagens/bl.gif" /></td><td style="background-image:url(<{$xoops_imageurl}>imagens/bm.gif);background-repeat:repeat-x;"></td><td><img src="<{$xoops_imageurl}>imagens/br.gif" /></td></tr>
+</table><br />
+<{/foreach}>
+<!-- Fim do "loop" dos blocos da esquerda -->
+</td>
+<td style="padding: 0px 5px 0px;" align="center">
+<!-- Display center blocks if any -->
+<{if $xoops_showcblock == 1}>
+<table cellspacing="0">
+<tr>
+<td width="100%" colspan="2">
+<!-- Start center-center blocks loop -->
+<{foreach item=block from=$xoops_ccblocks}>
+<table cellspacing="0" cellpadding="5">
+<tr> 
+<td class="blockTitle2">&nbsp;<{$block.title}></td>
+</tr>
+<tr>
+<td class="blockContent2"><{$block.content}></td>
+</tr>
+</table>
+<{/foreach}>
+<!-- End center-center blocks loop -->
+</td>
+</tr>
+<tr>
+<td width="50%">
+<!-- Start center-left blocks loop -->
+<{foreach item=block from=$xoops_clblocks}>
+<table cellspacing="0" cellpadding="5">
+<tr> 
+<td class="blockTitle2">&nbsp;<{$block.title}></td>
+</tr>
+<tr>
+<td class="blockContent2"><{$block.content}></td>
+</tr>
+</table>
+<{/foreach}>
+<!-- End center-left blocks loop -->
+</td><td width="50%">
+<!-- Start center-right blocks loop -->
+<{foreach item=block from=$xoops_crblocks}>
+<table cellspacing="0" cellpadding="5">
+<tr> 
+<td class="blockTitle2">&nbsp;<{$block.title}></td>
+</tr>
+<tr>
+<td class="blockContent2"><{$block.content}></td>
+</tr>
+</table>
+<{/foreach}>
+<!-- End center-right blocks loop -->
+</td>
+</tr>
+</table>
+<{/if}>
+<!-- End display center blocks -->
+<div id="content">
+<{$xoops_contents}>
+</div>
+<hr>
+</td>
+<{if $xoops_showrblock == 1}>
+<td width="170" bgcolor="transparent" align="center" style="padding:4px;"><br />
+<!-- Início dos blocos da direita -->
+<{foreach item=block from=$xoops_rblocks}>
+<table cellspacing="0" cellpadding="0">
+<tr><td><img src="<{$xoops_imageurl}>imagens/tl.gif" /></td>
+<td class="blockTitle">&nbsp;<{$block.title}></td>
+<td><img src="<{$xoops_imageurl}>imagens/tr.gif" /></td>
+</tr>
+<tr>
+<td class="blockContent" colspan="3"><{$block.content}></td>
+</tr>
+<tr><td><img src="<{$xoops_imageurl}>imagens/bl.gif" /></td><td style="background-image:url(<{$xoops_imageurl}>imagens/bm.gif);background-repeat:repeat-x;"></td><td><img src="<{$xoops_imageurl}>imagens/br.gif" /></td></tr>
+</table><br />
+<{/foreach}>
+<!-- End right blocks loop -->
+<{/if}>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="30" valign="middle" align="center"><div style="text-align: center; padding-top: 2px; font-size: 10px;color:#ccccff;"><{$xoops_footer}><p>
+<{$xoops_banner}></div></td>
+</tr>
+</table>
+</body>
+</HTML>

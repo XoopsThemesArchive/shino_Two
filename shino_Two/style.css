@@ -1,0 +1,254 @@
+table {
+font-size: small;
+width: 100%;
+}
+table td {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+vertical-align: top;
+padding: 0;
+border-width: 0;
+}
+div#content {
+text-align: left;
+padding: 5px;
+}
+div#content td {
+padding: 3px;
+}
+body {
+background-image:url(imagens/testt.gif);
+color: #000000;
+font-size: 12px;
+font-family: Tahoma, taipei;
+}
+a {
+color: #000000;
+font-size: 12px;
+font-family: Tahoma, taipei;
+font-style: normal;
+text-decoration: none;
+}
+a:hover {
+color: #6F6CF4;
+font-size: 12px;
+font-family: Tahoma, taipei;
+font-style: normal;
+text-decoration: underline overline;
+}
+td {
+color: #000000;
+font-size: 12px;
+font-family: Tahoma, taipei;
+border-top-width: 1px;
+border-left-width: 1px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+}
+input {
+color: #000000;
+background-color: transparent;
+font-size: 12px;
+font-family: Tahoma, taipei, Verdana, Arial, Helvetica, sans-serif;
+font-weight: normal;
+text-indent: 2px;
+border-color: #000000;
+border-top-width: 1px;
+border-left-width: 1px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+}
+textarea {
+background-color: transparent;
+font-size: 12px;
+font-family: Tahoma, taipei, Verdana, Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-indent: 2px;
+border-color: #000000;
+border-top-width: 1px;
+border-left-width: 1px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+}
+select {
+background-color: #ccccff;
+font-size: 12px;
+font-family: Tahoma, taipei, Verdana, Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+img {
+border: 0;
+}
+ul {
+text-align: left;
+margin: 2px;
+padding: 2px;
+list-style: decimal inside;
+}
+li {
+margin-left: 2px;
+list-style: disc inside;
+}
+.odd {
+background-color: #ccccff;
+}
+.outer {
+background-color: #ccccff;
+}
+.even {
+background-color: #ccccff;
+}
+th {
+background-color: #ccccff;
+text-align: left;
+padding: 3px;
+}
+.head {
+background-color: #333399;
+color:#ccccff;
+padding: 3px;
+}
+.foot {
+background-color: #333399;
+padding: 3px;
+}
+.comTitle {
+font-weight: bold;
+margin-bottom: 2px;
+}
+.comText {
+padding: 2px;
+}
+.comUserStat {
+color: #333333;
+background-color: #ffffff;
+font-size: 10px;
+font-weight: bold;
+margin: 2px;
+padding: 2px;
+border: solid 1px #cccccc;
+}
+.comUserStatCaption {
+font-weight: normal;
+}
+.comUserStatus {
+color: #333333;
+font-size: 10px;
+font-weight: bold;
+margin-top: 10px;
+margin-left: 2px;
+}
+.comUserRank {
+margin: 2px;
+}
+.comUserRankText {
+font-size: 10px;
+font-weight: bold;
+}
+.comUserRankImg {
+border: 0;
+}
+.comUserName {}
+.comUserImg {
+margin: 2px;
+}
+.comDate {
+font-size: smaller;
+font-weight: normal;
+font-style: italic;
+}
+.comDateCaption {
+font-weight: bold;
+font-style: normal;
+}
+.item {
+border: solid 1px #cccccc;
+background:#ccccff;
+}
+.itemHead {
+color: #ccccff;
+background-color: #333399;
+font-weight: bold;
+text-align: left;
+padding: 2px;
+}
+.itemInfo {
+background-color: #ccccff;
+text-align: right;
+padding: 3px;
+}
+.itemTitle a {
+color: #ccccff;
+background-color: transparent;
+font-size: 130%;
+font-weight: bold;
+font-variant: small-caps;
+}
+.itemPoster {
+font-size: 90%;
+font-style: italic;
+}
+.itemPostDate {
+font-size: 90%;
+font-style: italic;
+}
+.itemStats {
+font-size: 90%;
+font-style: italic;
+}
+.itemBody {
+background: #ccccff;
+padding-left: 5px;
+text-align: left;
+}
+.itemText {
+margin-top: 5px;
+margin-bottom: 5px;
+line-height: 1.5em;
+}
+.itemText: first-letter {
+font-size: 133%;
+font-weight: bold;
+}
+.itemFoot {
+background-color: #efefef;
+text-align: right;
+padding: 3px;
+}
+.itemAdminLink {
+font-size: 90%;
+}
+.itemPermaLink {
+font-size: 90%;
+}
+.blockTitle {
+width:151px;
+color: #666600;
+background-image: url(imagens/tm.gif);
+background-repeat:repeat-x;
+font-weight: bold;
+vertical-align:middle;
+}
+.blockTitle2 {
+text-align:left;
+color: #ccccff;
+background-color: #333399;
+font-weight: bold;
+}
+.blockContent {
+width:151px;
+background-color: #ccccff;
+border-left:solid 1px #436C9E;
+border-right:solid 1px #436C9E;
+}
+.blockContent2 {
+background-color: #ccccff;
+border:solid 1px #333399;
+text-align:left;
+padding:10px;
+}
+.logo{
+background-image:url(imagens/b2.1.jpg);
+background-repeat:no-repeat;
+width:800px;
+height:150px;
+}
